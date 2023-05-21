@@ -33,7 +33,7 @@ php artisan jwt:secret
 
 8. Ketik : php artisan serve --port=8001
 
-9. buka website: hhtp://127.0.0.1:8001
+9. buka website: http://127.0.0.1:8001
 
 10. Buka postman
 
