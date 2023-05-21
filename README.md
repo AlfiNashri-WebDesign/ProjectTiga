@@ -12,7 +12,7 @@ Alur kerjanya:
 Buka VS code :
 
 1. Karna Folder Vendor dihilangkan, Aktifkan Xampp dan database buat dulu 
-2. Buat kembalikan Folder Vendor
+Buat kembalikan Folder Vendor
 Ketik : Composer install
 
 2. copy env.ecample .env 
@@ -26,6 +26,7 @@ kita buat enc dan isi database, username dan password yg kita masukkan di Mysql
 
 6. sekarang kita aktifkan jwt
 composer require tymon/jwt-auth
+<br>
 isi file Tymon\JWTAuth\Provider\LaravelServiceProvider::class
 
 7. generate secret Token pada file env
