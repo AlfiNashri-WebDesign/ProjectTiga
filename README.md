@@ -8,5 +8,35 @@
 </p>
 
 ## About Laravel
+Alur kerjanya:
+Buka VS code :
+
+1. Karna Folder Vendor dihilangkan, Aktifkan Xampp dan database buat dulu 
+2. Buat kembalikan Folder Vendor
+Ketik : Composer install
+
+2. copy env.ecample .env 
+kita buat enc dan isi database, username dan password yg kita masukkan di Mysql
+
+3. composer update
+
+4. php artisan key:generate
+
+5. php artisan migrate
+
+6. sekarang kita aktifkan jwt
+composer require tymon/jwt-auth
+isi file Tymon\JWTAuth\Provider\LaravelServiceProvider::class
+
+7. generate secret Token pada file env
+php artisan jwt:secret
+
+8. Ketik : php artisan serve --port=8001
+
+9. buka website: hhtp://127.0.0.1:8001
+
+10. Buka postman
 
 
+![data barang](https://github.com/AlfiNashri-WebDesign/ProjectTiga/assets/23645665/fa5973fe-5e0a-453e-9bbf-ca87728c0d1f)
+![input barang](https://github.com/AlfiNashri-WebDesign/ProjectTiga/assets/23645665/3dc7c56b-5369-4148-8c10-8a5bb12b2f78)
