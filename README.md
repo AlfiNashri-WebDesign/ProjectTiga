@@ -26,7 +26,7 @@ kita buat enc dan isi database, username dan password yg kita masukkan di Mysql
 
 6. sekarang kita aktifkan jwt
 composer require tymon/jwt-auth
-<br>
+
 isi file Tymon\JWTAuth\Provider\LaravelServiceProvider::class
 
 7. generate secret Token pada file env
