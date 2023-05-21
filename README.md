@@ -25,7 +25,8 @@ kita buat enc dan isi database, username dan password yg kita masukkan di Mysql
 5. php artisan migrate
 
 6. sekarang kita aktifkan jwt
-composer require tymon/jwt-auth   ,  isi file Tymon\JWTAuth\Provider\LaravelServiceProvider::class
+composer require tymon/jwt-auth   <br>  
+  isi file Tymon\JWTAuth\Provider\LaravelServiceProvider::class
 
 7. generate secret Token pada file env
 php artisan jwt:secret
